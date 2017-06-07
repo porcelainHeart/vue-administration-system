@@ -8,6 +8,8 @@
 
 mock服务器基于express，详见build/dev-server.js
 
+这样一来mock与本地项目共用同一服务器 同一端口号，完美绕过跨域问题
+
 ps： 登录页面的验证码随便填写即可
 
 
