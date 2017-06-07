@@ -8,6 +8,8 @@
 
 mock服务器基于express，详见build/dev-server.js
 
+ps： 登录页面的验证码随便填写即可
+
 
 ## Build Setup
 
