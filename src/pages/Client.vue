@@ -1,7 +1,6 @@
 <template>
   <div class="agent-page">
     <div class="pagination-box">
-      <el-button @click="testApi">testapi</el-button>
       <el-button @click="dialogFormVisible = true" type="primary" style="float: left;">新建账户</el-button>
       <!-- 分页器 -->
       <el-pagination v-if="limit < total"
@@ -114,16 +113,6 @@ export default {
       'adminTransfer',
       'createClient'
     ]),
-    testApi () {
-      console.log('ax')
-      axios.get('http://localhost:8118/test')
-        .then(function (response) {
-          console.log(response)
-        })
-        .catch(function (error) {
-          console.log(error)
-        })
-    },
     handleGetClientList () {
       if (this.tableLoading) return
       this.tableLoading = true
