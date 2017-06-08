@@ -1,5 +1,5 @@
-var Mock = require('mockjs')
-var R = Mock.Random
+const Mock = require('mockjs')
+const R = Mock.Random
 module.exports = {
   login: {
     code: 200,
