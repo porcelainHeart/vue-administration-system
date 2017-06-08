@@ -1,5 +1,5 @@
 <template>
-  <div class="logo-header">
+  <div class="logo-header el-menu">
     <img src="../assets/title-logo.png">
   </div>
 </template>
